@@ -1,1 +1,1 @@
-# Puzzle-Art-in-Java
+# Puzzle Art in Java
