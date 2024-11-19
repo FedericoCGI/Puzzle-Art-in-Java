@@ -26,7 +26,7 @@ The custom classes developed for this project are listed as follows:
 - [CardViewer](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/CardViewer.java): Creates a window showing the reference image of the puzzle, helping players to place every piece correctly.
 - [ViewerAction](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/ViewerAction.java): Manages actions related to "View Image" button.
 - [AssegnazioneFotoComponent](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/AssegnazioneFotoComponent.java): Manages and displays the grid in a window, while randomizing the puzzle pieces for each level.
-- [PressPlayAction](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/PressPlayAction.java): Describes the actions that will be performed when the play button is pressed. In particular, it creates the screen for the first level.
+- [PressPlayAction](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/PressPlayAction.java): Describes the actions that will be performed when the play button is pressed and creates the screen for the first level.
 - [PuzzleArt](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/PuzzleArt.java): It is the class that contains the main method and manages the intro window of the game.
 - [TutorialAction](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/TutorialAction.java): Manages actions related to "Tutorial" button.
 - [SecondoLivello](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/SecondoLivello.java): Manages level 2 data.
@@ -35,6 +35,19 @@ The custom classes developed for this project are listed as follows:
 
 ## Libraries
 
+- Java Swing: For creating the graphical user interface and managing visual components.
+- Java AWT and Javax.sound.sampled: For managing the graphical rendering of rectangles and playing sound effects.
+
 ## Content
 
+- Project documentation is avaible in [documentation.pdf](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/sources/PA_documentation.pdf), in [sources](https://github.com/FedericoCGI/Puzzle-Art-in-Java/tree/main/sources) folder. Currently, this file is written in Italian, but an English version will be uploaded as soon as possible.
+- Project implementation is available in the [code](https://github.com/FedericoCGI/Puzzle-Art-in-Java/tree/main/code) folder.
+
 ## Authors
+
+[Federico March](https://github.com/FedericoCGI)
+- [ArtStation](https://www.artstation.com/federicomarch_cgi)
+- [LinkedIn](https://www.linkedin.com/in/federico-march-a15b17194/)
+- federico.march.cgi@gmail.com
+
+Isabel Toro Sima
