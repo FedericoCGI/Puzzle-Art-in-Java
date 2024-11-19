@@ -23,4 +23,18 @@ The custom classes developed for this project are listed as follows:
 - [Importa_Immagine](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/Importa_Immagine.java): Allows images import into the project.
 - [GrigliaFotoComponent](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/GrigliaFotoComponent.java): Creates a grid of rectangles represented as a 2D array of Rectangle2D.Double instances.
 - [Cronometro](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/Cronometro.java): Creates a counter that communicates the time left to players to complete a level.
-- [CardViewer](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/CardViewer.java):
+- [CardViewer](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/CardViewer.java): Creates a window showing the reference image of the puzzle, helping players to place every piece correctly.
+- [ViewerAction](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/ViewerAction.java): Manages actions related to "View Image" button.
+- [AssegnazioneFotoComponent](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/AssegnazioneFotoComponent.java): Manages and displays the grid in a window, while randomizing the puzzle pieces for each level.
+- [PressPlayAction](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/PressPlayAction.java): Describes the actions that will be performed when the play button is pressed. In particular, it creates the screen for the first level.
+- [PuzzleArt](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/PuzzleArt.java): It is the class that contains the main method and manages the intro window of the game.
+- [TutorialAction](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/TutorialAction.java): Manages actions related to "Tutorial" button.
+- [SecondoLivello](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/SecondoLivello.java): Manages level 2 data.
+- [TerzoLivello](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/TerzoLivello.java): Manages level 3 data. 
+- [Congratulation](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/Congratulation.java): Creates the end-game screen, where the CPU congratulates the player for completing the levels.
+
+## Libraries
+
+## Content
+
+## Authors
