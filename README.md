@@ -1,6 +1,7 @@
 # Puzzle Art in Java
 
 Puzzle Art!
+
 Puzzle Art! is a game developed in Java that combines the experience of traditional puzzles with elements of interactivity and graphics management. This project was created by Federico March and Isabel Toro Sima as part of the Programming in Java course at the University of Tor Vergata.
 
 ## Game Description
@@ -15,3 +16,11 @@ The game consists of reconstructing famous works of art by correctly placing the
 - Image Viewing: Whenever the player wants to see the complete image to be reconstructed, a "View Image" button is available that opens a dedicated window with the reference image.
 - Piece Movement and Logic: Puzzle pieces can be dragged using the mouse. The game automatically checks if a piece has been placed correctly in the grid, increasing the score accordingly.
 
+## Classes
+
+The custom classes developed for this project are listed as follows:
+- [Importa_Audio](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/Importa_Audio.java): Manages and imports audio file into the project.
+- [Importa_Immagine](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/Importa_Immagine.java): Allows images import into the project.
+- [GrigliaFotoComponent](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/GrigliaFotoComponent.java): Creates a grid of rectangles represented as a 2D array of Rectangle2D.Double instances.
+- [Cronometro](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/Cronometro.java): Creates a counter that communicates the time left to players to complete a level.
+- [CardViewer](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/CardViewer.java):
