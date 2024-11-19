@@ -1,12 +1,16 @@
 # ![icon](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/images/PA_icon.png)    Puzzle Art in Java
 
-Puzzle Art!
+## Puzzle Art!
 
 Puzzle Art! is a game developed in Java that combines the experience of traditional puzzles with elements of interactivity and graphics management. This project was created by Federico March and Isabel Toro Sima as part of the Programming in Java course at the University of Tor Vergata.
+
+![Puzzle Art Home](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/images/PA_home.png)
 
 ## Game Description
 
 The game consists of reconstructing famous works of art by correctly placing their pieces in a grid. The main feature of the game is the use of interactive images and audio, which guide the player through various levels of difficulty, starting with simpler grids of 4 pieces and progressing to more complex grids of 16 pieces.
+
+![PA_img01](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/images/PA_img01.png)      ![PA_img02](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/images/PA_img02.png)
 
 ## Features:
 
@@ -50,4 +54,4 @@ The custom classes developed for this project are listed as follows:
 - [LinkedIn](https://www.linkedin.com/in/federico-march-a15b17194/)
 - federico.march.cgi@gmail.com
 
-Isabel Toro Sima
+Isabel ToroSima
