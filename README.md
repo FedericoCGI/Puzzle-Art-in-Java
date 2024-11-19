@@ -1,4 +1,4 @@
-# Puzzle Art in Java
+# ![icon](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/images/PA_icon.png)    Puzzle Art in Java
 
 Puzzle Art!
 
