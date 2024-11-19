@@ -1,0 +1,54 @@
+
+***   Puzzle Art!   ***
+
+---   Classes Decription   ---
+
+1. AssegnazioneFotoComponent --> creates a panel in which the grid and images are drawn with randomized spatial coordinates.
+			      This class contains the Muovi_Immagine class, which allows moving the images (puzzle pieces) within the frame and place them into the grid, in the correct position.
+			      The Muovi_Immagine class includes instructions for advancing to the next levels.
+
+
+---   BRIEF DESCRIPTION OF THE ALGORITHM THAT GENERATES THE PANEL CONTAINING THE GRID AND IMAGES   ---
+
+The AssegnazioneFotoComponent class creates a panel containing the "skeleton" grid on which the puzzle pieces must be placed to reconstruct the complete photo.
+A grid of size nxn (an nxn matrix of Rectangle2D.Double rectangles) is created, which is drawn on the panel with the paint component.
+Each rectangle represents a specific piece of the puzzle.
+Another nxn grid of Rectangle2D.Double rectangles is recreated, and from it, an array of rectangles is extracted, which will later contain the puzzle pieces. 
+In this way, each piece of the puzzle can be sequentially sorted.
+Every puzzle piece (rectangle) of this array is then inserted into an array list. This choice is due to the shuffle method for array lists, which randomizes the position of each piece of the puzzle.
+Ideally, the completed image is broken into n smaller pieces. Next, part 1 of the reference image is assigned to rectangle 1 (puzzle piece 1), part 2 to rectangle 2, and so on using the drawImage method of the paint component. 
+This is why the rectangles are sequentially ordered in array list, making image assignment easy. 
+Once the images are assigned, the positions of the various puzzle pieces can be randomized in a later step.
+The rectangles (puzzle pieces) are inserted into an array list to perform a shuffle that randomizes the positions of the various rectangles within the array list. 
+After the shuffle, only the positions of the rectangles within the array list change, while the spatial coordinates of the rectangles remain the same.
+Using the ordinaGriglia(ArrayList list) method, puzzle pieces in the array list are ordered into an nxn side grid 
+(i.e., the first element of the array list [at position 0] will be inserted into position 0,0 of the side grid, the second element [at position 1] will be inserted into position 0,1 of the grid, and so on until all rows and columns of the grid are filled. 
+Obviously, at position 0 of the array list, there will no longer be rectangle 1 but another rectangle because the shuffle was performed). T
+his time, the spatial coordinates of the various rectangles are modified.
+The algorithm's output is an image broken into nxn randomized pieces.
+
+---------------------------------------------------------------------------------------------------------
+
+2. CardViewer --> Creates a window showing the reference image of the puzzle, helping players to place every piece correctly.
+
+3. Cronometro --> Sets the available playtime for each level.
+
+4. GrigliaFotoComponent --> Creates a grid of rectangles represented as a 2D array of Rectangle2D.Double instances.
+
+5. Importa_Immagine --> Allows importing images into a class.
+
+6. PressPlayAction --> Describes the actions that will be performed when the play button is pressed and creates the screen for the first level.
+
+7. PuzzleArt --> It is the class that contains the main method and manages the intro window of the game.
+
+8. ViewerAction --> Describes the actions that will be performed when the "View Image" button is pressed.
+
+9. Congratulation --> Creates the end-game screen, where the CPU congratulates the player for completing the levels.
+
+10. SecondoLivello --> Manages level 2 data.
+
+11. TerzoLivello --> Manages level 3 data.
+
+12. TutorialAction --> Shows the tutorial screen when clicking the "Tutorial" button.
+
+13. Importa_Audio --> allows importing an audio file.
