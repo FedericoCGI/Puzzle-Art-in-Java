@@ -22,7 +22,7 @@ The custom classes developed for this project are listed as follows:
 - [Importa_Audio](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/Importa_Audio.java): Manages and imports audio file into the project.
 - [Importa_Immagine](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/Importa_Immagine.java): Allows images import into the project.
 - [GrigliaFotoComponent](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/GrigliaFotoComponent.java): Creates a grid of rectangles represented as a 2D array of Rectangle2D.Double instances.
-- [Cronometro](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/Cronometro.java): Creates a counter that communicates the time left to players to complete a level.
+- [Cronometro](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/Cronometro.java): Sets the available playtime for each level.
 - [CardViewer](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/CardViewer.java): Creates a window showing the reference image of the puzzle, helping players to place every piece correctly.
 - [ViewerAction](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/ViewerAction.java): Manages actions related to "View Image" button.
 - [AssegnazioneFotoComponent](https://github.com/FedericoCGI/Puzzle-Art-in-Java/blob/main/code/src/AssegnazioneFotoComponent.java): Manages and displays the grid in a window, while randomizing the puzzle pieces for each level.
